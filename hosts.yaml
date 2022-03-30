@@ -8,19 +8,19 @@ CORE-ROU:
           vlan: routed
           ip:   10.139.3.2
           mask: 255.255.255.0
-          desc: TO FAS FROM CORE
+          desc: TO FAS FROM CORESW
         - name: ethernet 0/0
           vlan: routed
           ip:   10.139.4.2
           mask: 255.255.255.0
-          desc: TO MAR FROM CORE
+          desc: TO MAR FROM CORESW
         - name: ethernet 0/1
           vlan: routed
           ip:   10.139.5.2
           mask: 255.255.255.0
-          desc: TO HOSPITAL FROM CORE
+          desc: TO HOSPITAL FROM CORESW
     ospf:
-      ospf_rid: 1.1.1.1
+      ospf_rid: 2.2.2.2
       ospf_process: "1"
       ospf_networks:
         - ip: 10.139.2.0
