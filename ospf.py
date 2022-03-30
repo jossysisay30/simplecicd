@@ -6,7 +6,7 @@ from nornir_jinja2.plugins.tasks import template_file
 #from nornir.core.task import template_file
 from nornir_utils.plugins.functions import print_result
 from nornir_scrapli.tasks import send_configs
-import  ipdb
+#import  ipdb
 #from nornir_scrapli.tasks import send_configs
 
 nr = InitNornir(config_file="config.yaml")
