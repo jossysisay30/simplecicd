@@ -20,11 +20,7 @@ CORE-ROU:
           mask: 255.255.255.0
           desc: TO HOSPITAL FROM CORESW
     ospf:
-<<<<<<< HEAD
       ospf_rid: 5.5.5.5
-=======
-      ospf_rid: 3.3.3.3
->>>>>>> f5929bdad8590f35d83156edf450e0bbea41a6d5
       ospf_process: "1"
       ospf_networks:
         - ip: 10.139.2.0
