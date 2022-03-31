@@ -13,7 +13,7 @@ CORE-ROU:
           vlan: routed
           ip:   10.139.4.2
           mask: 255.255.255.0
-          desc: TO MAR FROM CORESW
+          desc: TO MAR FROM TEDCORE
         - name: ethernet 0/1
           vlan: routed
           ip:   10.139.5.2
