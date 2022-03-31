@@ -1,5 +1,5 @@
 CORE-ROU:
-  hostname: 172.16.32.135
+  hostname: 172.16.32.147
   groups:
     - iosxe
   data:
