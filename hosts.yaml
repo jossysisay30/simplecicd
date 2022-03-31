@@ -8,7 +8,7 @@ CORE-ROU:
           vlan: routed
           ip:   10.139.3.2
           mask: 255.255.255.0
-          desc: TO FAS FROM CORESW
+          desc: FROM CORESW TO FAS
         - name: ethernet 0/0
           vlan: routed
           ip:   10.139.4.2
