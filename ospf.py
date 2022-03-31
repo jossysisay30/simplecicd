@@ -6,10 +6,11 @@ from nornir_jinja2.plugins.tasks import template_file
 #from nornir.core.task import template_file
 from nornir_utils.plugins.functions import print_result
 from nornir_scrapli.tasks import send_configs
+import sys
 #import  ipdb
 #from nornir_scrapli.tasks import send_configs
-
-nr = InitNornir(config_file="config.yaml")
+config_file= sys.argv[1]
+nr = InitNornir(config_file)
 
 def basicconf(task):
     r=task.run(task=template_file,template="ospf.j2",path=f"templates/")
