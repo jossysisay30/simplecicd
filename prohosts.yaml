@@ -51,7 +51,7 @@ MAR-DIS:
           mask: 255.255.255.0
           desc: Mangment Interface
     ospf:
-      ospf_rid: 4.4.4.4
+      ospf_rid: 40.40.40.40
       ospf_process: "1"
       ospf_networks:
         - ip: 10.139.4.0
