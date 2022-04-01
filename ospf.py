@@ -8,8 +8,9 @@ from nornir_utils.plugins.functions import print_result
 from nornir_scrapli.tasks import send_configs
 #import  ipdb
 #from nornir_scrapli.tasks import send_configs
-
-nr = InitNornir(config_file="config.yaml")
+import sys
+config_file = sys.argv[1]
+nr = InitNornir(config_file=config_file)
 
 def basicconf(task):
     r=task.run(task=template_file,template="ospf.j2",path=f"templates/")
