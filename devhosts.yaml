@@ -20,7 +20,7 @@ FAS-ACC:
           mask: 255.255.255.0
           desc: Mangment Interface
     ospf:
-      ospf_rid: 20.20.20.20
+      ospf_rid: 80.80.80.80
       ospf_process: "1"
       ospf_networks:
         - ip: 10.139.2.0
