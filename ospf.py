@@ -9,8 +9,11 @@ from nornir_scrapli.tasks import send_configs
 #import  ipdb
 #from nornir_scrapli.tasks import send_configs
 import sys
+import os
 config_file = sys.argv[1]
 nr = InitNornir(config_file=config_file)
+nr.inventory.defaults.username = os.getenv("USERNAME")
+nr.inventory.defaults.password = os.getenv("PASSWORD")
 
 def basicconf(task):
     r=task.run(task=template_file,template="ospf.j2",path=f"templates/")
