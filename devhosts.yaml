@@ -84,7 +84,7 @@ HOSPITAL-ACC:
           mask: 255.255.255.0
           desc: Mangment Interface
     ospf:
-      ospf_rid: 50.50.50.50
+      ospf_rid: 60.60.60.60
       ospf_process: "1"
       ospf_networks:
         - ip: 10.139.5.0
